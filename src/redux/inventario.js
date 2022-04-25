@@ -26,7 +26,7 @@ export const getInvData = () => async (dispatch) => {
   const Inventory = [];
   parsedDta.forEach(el => {
     const id = el.inventarioId;
-    const envasadora = el.envasadoraEntity.envasadoraNombre;
+    const envasadora = el.envasadoraEntity.envasadoraNombre.replace('_', ' ');
     const maxCapacidad = el.envasadoraEntity.capacidadMaximaTanque;
     const minCapacidad = el.envasadoraEntity.capacidadMinimaTanque;
     const porcentajeMin = percentage(minCapacidad, maxCapacidad);
@@ -49,6 +49,5 @@ export const getInvData = () => async (dispatch) => {
     }
     Inventory.push(InvObjeto);
   });
-  console.log(Inventory);
   dispatch(dataInv(Inventory));
 };
