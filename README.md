@@ -1,8 +1,38 @@
+# Metrogas srl
+
+> En esta aplicacion renderizo informacion recibida desde una API con multiples endPoints.
+
+![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
+
+![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
+
+## Hecho con:
+
+- JavaScript, HTML, CSS
+- React/Redux
+
+## Correr el proyecto localmente
+
+Para tener y ver el proyecto localmente siga los siguientes pasos:
+
+- Dirijase a un folder vacio.
+- copie lo siguiente en una nueva terminal: git clone https://github.com/franklinben23/Metrogas-inv-prueba.git
+- entre al folder nuevo creado por la accion previa.
+- para instalar dependecias corra: npm install.
+- para comenzar la aplicacion corra: npm start.
+- refer to Available Scripts section for more functionalities.
+
+# Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the required dependencies in order to run the project.
 
 ### `npm start`
 
@@ -37,32 +67,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Franklin Benjamin**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [franklinben23](https://github.com/franklinben23)
+- Twitter: [@franklin23](https://twitter.com/Franklin23)
+- LinkedIn: [Franklin Benjamin](www.linkedin.com/in/franklinbenjamin)
 
-### Code Splitting
+## 🤝 Contribuciones
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
