@@ -6,10 +6,12 @@ import './App.css';
 
 function Inventario() {
   const dispatch = useDispatch();
-  useEffect(()=> {
-    dispatch(getInvData());
-  }, [])
   const envasadoras = useSelector((state) => state.tanques);
+  useEffect(()=> {
+    if (envasadoras.length === 0) {
+      dispatch(getInvData());
+    }
+  }, [])
   return (
     <div className="App">
       <h1 className="big-title"> Metrogas envasadoras</h1>

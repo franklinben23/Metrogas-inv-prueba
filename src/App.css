@@ -12,11 +12,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 440px;
+  border: 2px black solid;
+  border-radius: 20px;
+}
+
+.big-title {
+  margin: 40px 0 40px 0;
+}
+
+.envasadora-titulo {
+  margin: 20px 0 20px 0;
 }
 
 .info-lista {
   display: flex;
   align-items: center;
+  margin-bottom: 18px;
 }
 
 .info-lista-dato {
@@ -26,4 +38,44 @@
 .span-alerta,
 .status {
   margin-left: 10px;
+  padding: 0.5px;
+  border-radius: 10px;
+}
+
+.envasadora-tanque {
+  position: relative;
+  height: 250px;
+  width: 100px;
+  background-color: lightgray;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.tanque {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: blueviolet;
+  border-radius: 9px;
+}
+
+.warning-line {
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  width: 140%;
+  background-color: transparent;
+  border-top: 3px red solid;
+}
+
+.span-alerta {
+  background-color: red;
+  color: white;
+  font-size: 0.8em;
+  display: block;
+}
+
+.status {
+  background-color: rgb(61, 255, 61);
 }

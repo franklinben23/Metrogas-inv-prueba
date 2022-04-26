@@ -29,10 +29,10 @@ export const getInvData = () => async (dispatch) => {
     const envasadora = el.envasadoraEntity.envasadoraNombre.replace('_', ' ');
     const maxCapacidad = el.envasadoraEntity.capacidadMaximaTanque;
     const minCapacidad = el.envasadoraEntity.capacidadMinimaTanque;
-    const porcentajeMin = percentage(minCapacidad, maxCapacidad);
+    const porcentajeMin = `${percentage(minCapacidad, maxCapacidad)}%`;
     const estadoTanque = el.envasadoraEntity.estatus;
     const contenidoGlp = el.existenciaGLP;
-    const porcentajeGlp = percentage(contenidoGlp, maxCapacidad);
+    const porcentajeGlp = `${percentage(contenidoGlp, maxCapacidad)}%`;
     const fechaInv = el.fechaInventario;
     const horaInv = el.horaInventario;
     const InvObjeto = {
