@@ -2,9 +2,9 @@
 
 > En esta aplicacion renderizo informacion recibida desde una API con multiples endPoints.
 
-![Screenshot 2022-04-25 at 22-57-22 React App](https://user-images.githubusercontent.com/68623189/165211013-df4e8d48-e9d9-44f0-ab61-c3bd03cb34ed.png)
+![Screenshot 2022-04-25 at 22-56-11 React App](https://user-images.githubusercontent.com/68623189/165210924-37ca6df1-6b6e-4280-8348-d2ff907bb697.png)
 
-![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
+![Screenshot 2022-04-25 at 22-57-22 React App](https://user-images.githubusercontent.com/68623189/165211013-df4e8d48-e9d9-44f0-ab61-c3bd03cb34ed.png)
 
 ## Hecho con:
 
