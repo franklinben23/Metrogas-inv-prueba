@@ -21,7 +21,7 @@ const percentage = (partialValue, totalValue) => {
 };
 
 export const getInvData = () => async (dispatch) => {
-  const rawDta = await fetch('http://bytecodestech.com:8080/Inventario/inventario/all');
+  const rawDta = await fetch('https://bytecodestech.com:8080/Inventario/inventario/all');
   const parsedDta = await rawDta.json();
   const Inventory = [];
   parsedDta.forEach(el => {

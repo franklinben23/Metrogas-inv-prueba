@@ -21,7 +21,7 @@ export const fuelReducer = (state = [], action) => {
 // async action
 
 export const getFuelsApi = () => async (dispatch) => {
-  const rawDta = await fetch('http://bytecodestech.com:8080/Inventario/precio/all');
+  const rawDta = await fetch('https://bytecodestech.com:8080/Inventario/precio/all');
   const newDta = await rawDta.json();
   const dataObj = newDta[0];
   const dataArr = [];
